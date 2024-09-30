@@ -2,7 +2,7 @@
 
 # 변수 설정
 JAR_FILE="SpringApp-0.0.1-SNAPSHOT.jar"
-DEPLOY_DIR="/c/01.lab/01.java/SpringApp"
+DEPLOY_DIR="/home/username/step07cicd"
 
 # 이전 JAR 파일 백업
 if [ -f "$DEPLOY_DIR/$JAR_FILE" ]; then
